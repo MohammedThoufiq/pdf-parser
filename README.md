@@ -43,7 +43,35 @@ The PDF Parser Application is a Java tool designed to extract structured data fr
 
 ## Example
 
-The application processes PDFs and generates a JSON output with extracted attributes and values.
+If your PDF contains data in various languages, the output JSON might look like this:
+
+json
+[
+  {
+     "attributes": {
+      "Name": "John",
+      "Age": "30",
+      "Occupation": "Software Developer",
+      "Email": "john.doe@example.com"
+    }
+  },
+  {
+    "attributes": {
+      "Name": "Jane",
+      "Age": "28",
+      "Occupation": "Data Scientist",
+      "Email": "jane.smith@example.com"
+    }
+  },
+  {
+    "attributes": {
+      "Name": "李四",
+      "Age": "25",
+      "Occupation": "数据分析师",
+      "Email": "li.si@example.com"
+    }
+  }
+]
 
 ## License
 
