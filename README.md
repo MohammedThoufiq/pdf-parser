@@ -78,4 +78,4 @@ json
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-Replace `https://github.com/MohammedThoufiq/pdf-parser.git` with the actual URL of your GitHub repository. Adjust any specifics based on your project needs.
+ `https://github.com/MohammedThoufiq/pdf-parser.git`
