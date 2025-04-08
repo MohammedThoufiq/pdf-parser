@@ -15,6 +15,7 @@ The PDF Parser Application is a Java tool designed to extract structured data fr
 - **Java:** Programming language used for implementation.
 - **Apache PDFBox:** Library for PDF text extraction.
 - **Spring Boot:** Framework for managing application configuration.
+- **ReactJS:** Frontend Library to Upload PDF.
 
 ## Usage
 
@@ -44,6 +45,9 @@ The PDF Parser Application is a Java tool designed to extract structured data fr
 ## Example
 
 If your PDF contains data in various languages, the output JSON might look like this:
+
+![image](https://github.com/user-attachments/assets/ca637915-fb08-493d-bee1-590d5a9265e2)
+
 
 json
 [
