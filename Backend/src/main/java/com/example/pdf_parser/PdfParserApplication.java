@@ -24,10 +24,7 @@ public class PdfParserApplication {
 		return args -> {
 			// Replace with paths to your PDF files
 			List<File> pdfFiles = Arrays.asList(
-					new File("C:\\Users\\abdul\\OneDrive\\Documents\\Thoufiq\\PDFParserUpwork\\71812 6,4mm.pdf"),
-					new File("C:\\Users\\abdul\\OneDrive\\Documents\\Thoufiq\\PDFParserUpwork\\71813 12,7mm.pdf"),
-					new File("C:\\Users\\abdul\\OneDrive\\Documents\\Thoufiq\\PDFParserUpwork\\72112 14mm.pdf"),
-					new File("C:\\Users\\abdul\\OneDrive\\Documents\\Thoufiq\\PDFParserUpwork\\messer özet sayfa.pdf")
+					new File("C:\\Users\\abdul\\Downloads\\MohammedThoufiq_Resume_SDE_2yrs_clr.pdf")
 					// Add more files as needed
 			);
 

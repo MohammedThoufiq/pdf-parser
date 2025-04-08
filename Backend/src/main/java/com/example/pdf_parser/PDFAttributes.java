@@ -1,8 +1,11 @@
 package com.example.pdf_parser;
 
+import lombok.Data;
+
 import java.util.HashMap;
 import java.util.Map;
 
+@Data
 public class PDFAttributes {
     private Map<String, String> attributes;
 

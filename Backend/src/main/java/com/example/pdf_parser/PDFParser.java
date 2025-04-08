@@ -3,6 +3,7 @@ package com.example.pdf_parser;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.springframework.stereotype.Component;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.IOException;
@@ -49,5 +50,11 @@ public class PDFParser {
         }
 
         return attributesList;
+    }
+
+    public List<PDFAttributes> parseMultipartFile(MultipartFile file) throws IOException {
+        File convFile = File.createTempFile("upload-", ".pdf");
+        file.transferTo(convFile);
+        return parsePdfs(List.of(convFile));
     }
 }
